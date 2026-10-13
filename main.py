@@ -4,7 +4,7 @@
 from azure.identity import DefaultAzureCredential
 from azure.ai.projects import AIProjectClient
 
-endpoint = "https://futuroprojeto.services.ai.azure.com/api/projects/proj-default"
+endpoint = [inserir o endpoint aqui]
 
 project_client = AIProjectClient(
     endpoint=endpoint,
